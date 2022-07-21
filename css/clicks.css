@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+/* Alterações Gerais */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    /* background-image: url(/img/asukaWpp2.jpg);
+    background-position: center;
+    background-size: cover; */
+    background: rgb(121,88,64);
+    background: linear-gradient(90deg, rgb(70, 55, 83) 0%, rgb(236, 153, 153) 100%);
+}
+
+
+/* Alterações Principais */
+.profile {
+    text-align: center;
+    padding: 4%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile h1 {
+    font-size: medium;
+}
+
+.profile img {
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.profile .circle {
+    display: inline-block;
+    font-size: smaller;
+    border: 1px solid rgba(22, 22, 22, 0.685);
+    padding: 5px;
+    border-radius: 50px;
+    margin: 1%;
+}
+
+.links li {
+    text-align: center;
+    font-style: oblique;
+    color: black;
+    margin: 0 0 2% 0;
+}
+
+.links li a {
+    padding: 2%;
+    margin: auto;
+    width: 80%;
+    background-color: rgba(216, 140, 210, 0.877);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(96, 35, 104);
+    display: block;
+    color: rgb(80, 35, 44);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: larger;
+}
+
+
+/* Alterações globais */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
